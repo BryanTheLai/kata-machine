@@ -1,4 +1,6 @@
 export default function bs_list(haystack: number[], needle: number): boolean {
+    //Binary search is just splitting into halfs. 
+    // O(Log n).
     let l = 0;
     let r = haystack.length;
 
